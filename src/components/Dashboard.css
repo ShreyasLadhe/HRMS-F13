@@ -1,0 +1,22 @@
+.dashboard-container {
+    background: url('./../assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px; 
+}
+
+.creative-font {
+    font-family: 'Pacifio', cursive;
+    color: #fff; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
